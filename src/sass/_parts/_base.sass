@@ -1,0 +1,39 @@
+::placeholder
+	color: #666
+
+::selection
+	background-color: $accent
+	color: #fff
+
+html
+	font-size: 1em
+
+body
+	font-family: $default-font
+	line-height: 1.5
+	color: $text-color
+	background: #DFF0FF
+	overflow-x: hidden
+	margin: 0
+	word-wrap: break-word
+	overflow-wrap: break-word
+
+input, textarea
+	border: #666 1px solid
+	outline: none
+	&:focus:required:invalid
+		border-color: red
+	&:required:valid
+		border-color: green
+input
+	&[type=text],&[tupe=tel]
+		width: 100%
+textarea
+	width: 100%
+img
+	vertical-align: text-bottom
+	max-width: 100%
+	height: auto
+
+.text--center
+	text-align: center

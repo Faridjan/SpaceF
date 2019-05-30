@@ -1,0 +1,15 @@
+{
+  "name": "SpaceF",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Farid <fred.andersen7@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "src/libs/",
+  "ignore": [
+    "**/.*",
+    "node_modules"
+  ],
+  "dependencies": {}
+}
